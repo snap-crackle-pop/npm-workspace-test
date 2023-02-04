@@ -1,0 +1,34 @@
+{
+    "name": "utils-string",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "files": [
+        "./dist/**/*"
+    ],
+    "types": "dist/types.d.ts",
+    "scripts": {
+        "build": "rollup -c",
+        "build:watch": "rollup -c -w",
+        "test": "echo \"Run tests utils-string\" && exit 1",
+        "publish": "echo \"Run publish utils-string\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@rollup/plugin-node-resolve": "^15.0.1",
+        "@types/node": "^18.11.18",
+        "rollup": "^3.13.0",
+        "rollup-plugin-delete": "^2.0.0",
+        "rollup-plugin-dts": "^5.1.1",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-typescript2": "^0.34.1",
+        "tslib": "^2.5.0",
+        "typescript": "^4.9.5"
+    },
+    "dependencies": {
+        "date-fns": "^2.29.3",
+        "utils-number": "^1.0.0"
+    }
+}
